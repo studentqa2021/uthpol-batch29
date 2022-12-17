@@ -1,0 +1,6 @@
+com\cucumber\test\FinalCucumber.class
+com\cucumber\test\StepDef.class
+com\cucumber\test\FinalStefDef.class
+com\cucumber\test\CucumberRunner.class
+com\regression\SmokeTest.class
+com\regression\SmokeTestWithTestNG.class

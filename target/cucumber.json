@@ -1,0 +1,121 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user must able to successfully login the application with valid credintial",
+        "description": "",
+        "id": "login-function-test-final;user-must-able-to-successfully-login-the-application-with-valid-credintial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2370704500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser",
+            "match": {
+              "location": "FinalStefDef.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1590638700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to url page",
+            "match": {
+              "location": "FinalStefDef.go_to_url_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090891400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signin",
+            "match": {
+              "location": "FinalStefDef.click_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100301400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "put valid email",
+            "match": {
+              "location": "FinalStefDef.put_valid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92585200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "put valid pass",
+            "match": {
+              "location": "FinalStefDef.put_valid_pass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152651300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click submit",
+            "match": {
+              "location": "FinalStefDef.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6060515700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate login",
+            "match": {
+              "location": "FinalStefDef.validate_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@finalTestRun"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test final",
+    "description": "",
+    "id": "login-function-test-final",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/final_003.feature",
+    "tags": [
+      {
+        "name": "@finalTestRun",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
