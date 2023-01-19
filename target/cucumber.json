@@ -3,6 +3,7 @@
     "line": 3,
     "elements": [
       {
+        "start_timestamp": "2023-01-19T20:12:52.707Z",
         "line": 5,
         "name": "user must able to successfully login the application with valid credintial",
         "description": "",
@@ -12,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2370704500,
+              "duration": 3841103000,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1590638700,
+              "duration": 2939723200,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1090891400,
+              "duration": 1084285100,
               "status": "passed"
             },
             "line": 9,
@@ -48,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 100301400,
+              "duration": 99226400,
               "status": "passed"
             },
             "line": 10,
@@ -60,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 92585200,
+              "duration": 92676800,
               "status": "passed"
             },
             "line": 11,
@@ -72,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 1152651300,
+              "duration": 1275857700,
               "status": "passed"
             },
             "line": 12,
@@ -84,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 6060515700,
+              "duration": 6075887100,
               "status": "passed"
             },
             "line": 13,

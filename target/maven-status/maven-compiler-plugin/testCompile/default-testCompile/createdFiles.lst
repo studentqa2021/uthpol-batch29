@@ -1,4 +1,6 @@
 com\cucumber\test\FinalCucumber.class
+com\testng\interview\practice\SmokeTetWithTestNG.class
+com\testng\interview\practice\TestngAnnotation.class
 com\cucumber\test\StepDef.class
 com\cucumber\test\FinalStefDef.class
 com\cucumber\test\CucumberRunner.class

@@ -29,12 +29,12 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
-			<version>4.2.6</version>
+			<version>4.7.1</version>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
-			<version>4.2.6</version>
+			<version>4.7.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -48,7 +48,18 @@
 			<version>2.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -60,14 +71,17 @@
 					<target>11</target>
 				</configuration>
 			</plugin>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
+
+//surefire
 						<suiteXmlFile>FinalLogin.xml</suiteXmlFile>
+
+
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

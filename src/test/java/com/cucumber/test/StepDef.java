@@ -75,6 +75,6 @@ public class StepDef {
 			Thread.sleep(6000);
 		} catch (InterruptedException e) {
 		}
-		driver.close();
+		driver.quit();
 	}
 }

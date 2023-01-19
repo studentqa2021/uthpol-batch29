@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+	<test thread-count="3" parallel="tests" name="GoogleTest">
+		<classes>
+			<class name="com.generic.GoogleWithTestng" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="3" parallel="tests" name="CostcoTest">
+		<classes>
+			<class name="com.generic.CostcowithTestng" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="3" parallel="tests" name="LumaTest">
+		<classes>
+			<class name="com.generic.LumaWithTestng" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
